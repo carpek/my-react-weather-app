@@ -1,0 +1,38 @@
+.body {
+    background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    border-radius: 15px;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 85%;
+    color: #495464;
+  }
+  
+  h1 {
+    color: #495464;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  
+  h2 {
+    color: #495464;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 0;
+  }
+  
+  h3 {
+    color: #495464;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .forecast {
+    margin: 8px 0 24px;
+  }
+  
