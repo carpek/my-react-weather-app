@@ -1,10 +1,4 @@
-import logo from './logo.svg';
 
-
-import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import "./styles.css";
 import Form from "./Form";
@@ -23,12 +17,10 @@ function App(city,
   result) {
   return (
     <div className="App">
-      <Container className="body">
-        <Row>
-          <Col>
+      <div className="body">
+        
             <Form />
-          </Col>
-        </Row>
+        
 
         <City
           city="Vienna"
@@ -40,18 +32,16 @@ function App(city,
         <Forecast temperature={12} />
 
         <div className="CurrentWeather">
-          <Row>
-            <Col>
+         <div>
               <CurrentWeather />
-            </Col>
-            <Col>
+              </div>
               <WeatherDescription measure="Feels Like" result="9°" />
               <WeatherDescription measure="Humidity" result="30%" />
               <WeatherDescription measure="Windspeed" result="20km/h" />
-            </Col>
-          </Row>
+           
+          </div>
         </div>
-      </Container>
+    
       <Footer />
     </div>
   );
